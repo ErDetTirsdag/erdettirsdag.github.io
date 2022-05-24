@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<title>Er det tirsdag?</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script>
+function isItTuesday() {
+    var d = new Date();
+    var elem = document.getElementById("answer");
+    if (d.getDay() == 2) {
+        elem.innerHTML = "Ja";
+        elem.className = "yes";
+    } else {
+        elem.innerHTML = "Nei";
+        elem.className = "no";
+    }
+}
+</script>
+</head>
+<body onLoad="isItTuesday();">
+
+<h1>Er det tirsdag?</h1>
+<h2 id="answer" class="no"></h2>
+
+</body>
+</html>
+

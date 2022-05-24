@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: constantia,georgia,serif;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 4em;
+    color: #ccc;
+}
+
+h2 {
+    font-family: candara,verdana,sans-serif;
+    font-size: 48pt;
+    text-align: center;
+    color: #ccc;
+}
+
+.yes {
+    color: #5f5;
+}
+
+.no {
+    color: #f55;
+}

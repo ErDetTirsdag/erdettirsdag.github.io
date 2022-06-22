@@ -8,6 +8,7 @@ function isItTuesday() {
 
 function changeTitle(titleContent) {
     document.getElementById("title").innerText = titleContent
+    document.getElementById("pageTitle").innerText = titleContent
     changeAnswer(Math.floor(Math.random() * 2))
 }
 

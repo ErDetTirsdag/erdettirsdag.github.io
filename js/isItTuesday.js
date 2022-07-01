@@ -16,11 +16,14 @@ function changeTitle(titleContent) {
 
 function changeAnswer(isTrue) {
     const elem = document.getElementById("answer");
+    const themeColor = document.getElementById("theme-color")
     if (isTrue) {
         elem.innerHTML = "Ja";
         elem.className = "yes";
+        themeColor.content = "#8ae234"
     } else {
         elem.innerHTML = "Nei";
         elem.className = "no";
+        themeColor.content = "#ef2929"
     }
 }

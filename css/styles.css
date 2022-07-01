@@ -2,25 +2,28 @@ body {
     background-color: black;
 }
 
-h1 {
-    font-family: constantia,georgia,serif;
-    font-size: 36pt;
+h1, h2 {
     text-align: center;
-    line-height: 4em;
-    color: #ccc;
+    color: white;
 }
 
-h2 {
-    font-family: candara,verdana,sans-serif;
+#title {
+    /*font-family: constantia, georgia, serif;*/
+    font-family: 'Ubuntu', constantia, georgia, serif;
+    font-size: 36pt;
+    line-height: 4em;
+}
+
+#answer {
+    font-family: 'Ubuntu', candara, verdana, sans-serif;
     font-size: 48pt;
-    text-align: center;
-    color: #ccc;
+
 }
 
 .yes {
-    color: #5f5;
+    color: #8ae234;
 }
 
 .no {
-    color: #f55;
+    color: #ef2929;
 }

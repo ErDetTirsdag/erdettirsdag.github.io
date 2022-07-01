@@ -1,9 +1,11 @@
+const TUESDAY = 2
+
 function isItTuesday() {
     if (window.location.search !== "" && window.location.search.includes("title")) {
         const urlParams = new URLSearchParams(window.location.search);
         changeTitle(urlParams.get("title"))
     } else
-        changeAnswer(new Date().getDay() === 2)
+        changeAnswer(new Date().getDay() === TUESDAY)
 }
 
 function changeTitle(titleContent) {
